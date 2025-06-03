@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miprochip Laboratory</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fondoiotmiprochip.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #00f0ff;
+      margin: 0 1rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .logo-container {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .logo-container img {
+      max-width: 200px;
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-radius: 15px;
+    }
+
+    .article {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .article h2 {
+      color: #00f0ff;
+      margin-bottom: 0.5rem;
+    }
+
+    .article p {
+      margin: 0;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #00f0ff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Miprochip Laboratory</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobremi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="logo-container">
+    <img src="logomiprochip.jpeg" alt="Logo Miprochip">
+  </div>
+
+  <div class="content" id="inicio">
+    <div class="article">
+      <h2>¿Qué es el IoT y por qué es importante?</h2>
+      <p>El Internet de las cosas (IoT) conecta dispositivos físicos a internet, permitiendo recolectar y compartir datos. En este artículo exploramos su impacto en el hogar y la industria.</p>
+    </div>
+
+    <div class="article">
+      <h2>Automatiza tu casa con ESP32</h2>
+      <p>Descubre cómo usar el ESP32 para controlar luces, puertas y sensores en tu hogar. Proyecto completo y código incluido.</p>
+    </div>
+
+    <div class="article">
+      <h2>Cómo medir corriente y voltaje con el sensor INA219</h2>
+      <p>Una guía paso a paso para usar el sensor INA219 con Arduino o ESP32 para tus proyectos de energía y monitoreo.</p>
+    </div>
+  </div>
+
+  <footer>
+    Web realizada por <a href="https://miprochip.com" target="_blank">miprochip.com</a>
+  </footer>
+
+</body>
+</html>
